@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@200;400;700&display=swap');
+*{
+    font-family: poppins;
+}
+
+.Sideimg{
+position: absolute;
+width: 660px;
+height: 555px;
+left: 20px;
+top: 30px
+;
+}
+.imgoptn{
+    position: absolute;
+width: 64px;
+height: 22px;
+left: 40px;
+top: 54px;
+
+}
+.quote{
+    color: #fff;
+    position: absolute;
+    width: 475px;
+    height: 112px;
+    left: 40px;
+    top: 247px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 38px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+}
+.quotedesc {
+    color: #BFBFBF;
+    position: absolute;
+    width: 475px;
+    height: 112px;
+    left: 45px;
+    top: 310px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 29px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.group{
+    position: absolute;
+width: 37.89px;
+height: 6px;
+left: 40px;
+top: 453px;
+
+}
+.Link{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+top: 540px;
+left: 54px;
+color: #BFBFBF;
+}
+.Linklogo{
+    position: absolute;
+left: -23.18%;
+right: 5.12%;
+top: 3.13%;
+bottom: 3.31%;
+}
+.petal{
+    position: absolute;
+width: 61px;
+height: 49px;
+
+left: 999px;
+   
+top: 78px;
+
+}
+.greeting{
+    position: absolute;
+width: 440px;
+height: 44px;
+left: 820px;
+top: 117px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+/* or 44px */
+
+text-align: center;
+text-transform: capitalize;
+ display: inline;
+
+}
+.back{
+    color: 
+#08A593;
+}
+.greetingDesc{
+    position: absolute;
+width: 153px;
+height: 22px;
+left: 964px;
+top: 171px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+text-align: center;
+
+
+}
+#email{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 49px;
+left: 860px;
+top: 219px;
+
+opacity: 0.45;
+border: 1px solid #464660;
+border-radius: 10px;
+}
+#password{
+    box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 49px;
+left: 860px;
+top: 290px;
+
+opacity: 0.45;
+border: 1px solid #464660;
+border-radius: 10px;
+}
+.login{
+    color: #fff;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 360px;
+height: 53px;
+left: 860px;
+top: 398px;
+
+background: #020100;
+box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+border-radius: 10px;
+font-size:1rem ;
+}
+.password-toggle {
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    left: 1179px;
+    top: 305px;
+
+background: none;    
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    appearance: none;
+   
+    
+    
+
+  }
+  
+  .password-toggle:focus {
+    outline: none;
+  }
+  .forgotpass{
+    
+position: absolute;
+width: 102px;
+height: 15px;
+left: 1108px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #667085;
+opacity: 0.5;
+text-decoration: none;
+
+  }
+  .createAcc{
+
+    position: absolute;
+    width: 236px;
+    height: 19px;
+   
+    top: 527px;
+    left: 924px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #667085;
+  }
+  .signUp{
+    text-decoration: none;
+    color: #08A593;
+
+  }
+  .fb{
+    position: absolute;
+    height: 15px;
+left: 585px;
+top: 540px;
+
+
+
+  }
+  .insta{
+    position: absolute;
+    height: 15px;
+left: 605px;
+top: 540px;
+  }
+  .linkedin{
+    position: absolute;
+    height: 15px;
+left: 565px;
+top: 540px;
+  }
